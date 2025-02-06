@@ -64,23 +64,27 @@ Schrijf een programma dat een willekeurig getal kiest en de gebruiker net zo lan
 ## 1.1.h. Compressie
 
 Schrijf een compress-programma, dat uit een gegeven bestand een nieuwe bestand maakt, waarbij van iedere regel alle spaties en tabs aan het begin van de regel zijn verwijderd.
-Verder zijn alle lege regels verwijderd (een lege regel bevat ’\n’ , eventueel voorafgegaan door spaties en tabs(‘\t’)).
+Verder zijn alle lege regels verwijderd (een lege regel bevat `\n` , eventueel voorafgegaan door spaties en tabs: `\t`).
 
 ## 1.1.i. Cyclisch verschuiven
 
-Schrijf een functie met twee parameters. De eerste parameter, ch, is een character. De tweede parameter, n, geeft aan hoeveel posities de bitjes van ch opgeschoven moeten
-worden. Als n > 0 is dan worden de bitjes naar links geschoven. Als n < 0 is dan worden de bitjes naar rechts geschoven. De bitjes die wegvallen worden aan de andere kant van
+Schrijf een functie met twee parameters. De eerste parameter `ch` is een character. De tweede parameter `n` geeft aan hoeveel posities de bitjes van `ch` opgeschoven moeten
+worden. Als `n > 0` dan worden de bitjes naar links geschoven. Als `n < 0` dan worden de bitjes naar rechts geschoven. De bitjes die wegvallen worden aan de andere kant van
 de byte weer teruggeplaatst.
-Voorbeeld 1: ch met bitwaarde 1011000 en n is gelijk aan 3 resulteert in een ch met de bitwaarde: 1000101.
-Voorbeeld 2: ch met bitwaarde 1011100 en n is gelijk aan -4 resulteert in een ch met de bitwaarde: 1100101.
+
+Voorbeeld 1: `ch` met bitwaarde `1011000` en `n` is gelijk aan `3` resulteert in een `ch` met de bitwaarde: `1000101`.
+
+Voorbeeld 2: `ch` met bitwaarde `1011100` en `n` is gelijk aan `-4` resulteert in een `ch` met de bitwaarde: `1100101`.
 
 ## 1.1.j. Fibonaci
 
 De rij van Fibonacci is genoemd naar Leonardo van Pisa, bijgenaamd Fibonacci, die de rij noemt in zijn boek Liber abaci uit 1202. De rij begint met 0 en 1 en vervolgens is elk
-volgende element van de rij steeds de som van de twee voorgaande elementen. Bij de rij gebruiken we de notatie fn voor het aangeven van het n-de element van de rij. f9 is
+volgende element van de rij steeds de som van de twee voorgaande elementen. Bij de rij gebruiken we de notatie $f_n$ voor het aangeven van het $n$-de element van de rij. $f_9$ is
 bijvoorbeeld gelijk aan 34. De eerste elementen van de rij zijn dan als volgt:
+
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584
-Implementeer een functie die fn uitrekent gegeven integer n. De functie moet recursief zijn.
+
+Implementeer een functie die $f_n$ uitrekent gegeven integer $n$. De functie moet recursief zijn.
 
 Meer oefenen met recursie: implementeer de eerdere sorteer-bereken-controleer opdrachten met recursieve functies.
 
