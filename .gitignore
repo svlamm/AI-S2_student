@@ -6,3 +6,5 @@ prog_formatieve_toets.py
 prog_formatieve_evaluatie.py
 
 **/.idea/*
+python/pytest/.pytest_cache/
+/python/pytest/__pycache__
