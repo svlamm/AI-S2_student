@@ -149,6 +149,14 @@
 
 > De student verzamelt onder begeleiding vanuit een nieuwsgierige en kritische houding volgens duidelijke instructies relevante informatie om hiermee een gegeven, enkelvoudig en duidelijk afgebakend vraagstuk op gestructureerde wijze op te lossen.
 
+[comment]: Dit professionele vermogen toon je aan als onderdeel van het project. Voorbeelden van documentatie die je kunt aanleveren om dit vermogen aan te tonen:
+[comment]: - (Secties van) analysedocumenten van algoritmes;
+[comment]: - Rapportage van uitgevoerd literatuuronderzoek;
+[comment]: - Documentatie van code, inclusief bronvermelding;
+[comment]: - Uitgevoerde research en learning stories;
+[comment]: - Live demonstratie van onderzoeksvaardigheden ten overstaan van de begeleidende docent.
+
+
 [comment]: # (Portfolio-items peilmoment 1)
 
 ---
@@ -164,6 +172,11 @@
 
 > De student stelt op basis van een teamplanning onder begeleiding een eenvoudige planning voor zichzelf op ten behoeve van de uitvoering van een gegeven, eenvoudige taak met een zekere doorlooptijd, rekening houdend met gegeven standaarden, door deze op te delen in kleinere (deel)taken, past deze planning indien nodig aan naar aanleiding van nieuwe (kleine) gebeurtenissen en licht eventuele aanpassingen toe.
 
+
+[comment]: Dit professionele vermogen toon je aan als onderdeel van het project. Voorbeelden van documentatie die je kunt aanleveren om dit vermogen aan te tonen:
+[comment]: - De planning van het team als geheel. Hier kijken we naar relevantie, haalbaarheid en werkverdeling onder de groepsleden;
+[comment]: - Jouw stories op het backlog. Hier kijken we naar: zijn alle velden ingevuld? Zijn er subtaken toegevoegd waar relevant? Is deze story geüpdatet in de loop van de Sprints?
+[comment]: - De documentatie van de Sprint Review en Retrospective. Hier kijken we in beginsel naar jullie peer assessments, zeker als plannen een "aangekaart onderwerp" is.
 
 [comment]: # (Portfolio-items peilmoment 1)
 
@@ -181,6 +194,12 @@
 
 > De student werkt onder begeleiding en passend binnen de context in een team samen aan een duidelijke taak en/of vanuit een duidelijke rol, waarbij deze anderen constructief en passend bij de situatie aanspreekt op hun gedrag en aan de hand van instructies of formats mondeling en/of schriftelijk communiceert met de opdrachtgever(s) op tenminste 3F/B2 niveau.
 
+[comment]: Dit professionele vermogen toon je aan als onderdeel van het project. Voorbeelden van documentatie die je kunt aanleveren om dit vermogen aan te tonen:
+[comment]: - Je persoonlijke Gitgeschiedenis. Hierbij kijken we naar frequentie van Git commits, en kwaliteit van commit messages;
+[comment]: - De documentatie van de Sprint Review en Retrospective. Hier focussen we in beginsel op jullie peer assessments.
+[comment]: Bezijdens het bovengenoemde wegen we mee hoe vaak je aanwezig, en hoe je bijdrage was, bij de vaste Scrumsessies. 
+[comment]: In het bijzonder is hier je bijdrage aan de demo's relevant. We houden hier zelf notities over bij ten tijde van de 
+
 [comment]: # (Portfolio-items peilmoment 1)
 
 ---
@@ -195,6 +214,17 @@
 ### 10 - (Zelf)lerend vermogen
 
 > Student formuleert volgens instructie persoonlijke ambities en kwaliteiten en gebruikt andermans feedback om beargumenteerde keuzes te maken met het oog op de studieloopbaan. Student reflecteert op het eigen handelen en/of het handelen van individuele teamleden, haalt hiervoor feedback op bij peers en docenten, stelt eigen sterktes en verbeterpunten vast en vertaalt verbeterpunten naar concrete acties.
+
+
+[comment]: Dit professionele vermogen toon je aan als onderdeel van het project. Voorbeelden van documentatie die je kunt aanleveren om dit vermogen aan te tonen:
+[comment]: - Bijgehouden feedback in Canvas. Noteer de feedback die je voor opdrachten krijgt ook in het commentaar voor Canvas;
+[comment]: - De documentatie van de Sprint Review en Retrospective. Hier focussen we in beginsel op jullie peer assessments.
+[comment]: Bezijdens het bovengenoemde kun je hier per peilmoment schriftelijk antwoord geven op de volgende vragen:
+[comment]: - Wat voor een soort functie binnen de ICT zou je graag willen bekleden na je studie?
+[comment]: - Is dit veranderd sinds de start van je opleiding en/of het vorige peilmoment?
+[comment]: - Hoe heb je tot dusver taken kunnen oppakken binnen het project, die passen bij die functie?
+[comment]: - Hoe kun je tot aan het volgende peilmoment meer van dat soort taken naar je toe trekken?
+[comment]: - Wat zou voor jou het droombedrijf zijn om stage te lopen, en waarom?
 
 [comment]: # (Portfolio-items peilmoment 1)
 
