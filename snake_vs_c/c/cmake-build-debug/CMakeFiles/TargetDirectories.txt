@@ -1,0 +1,3 @@
+C:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/snake_vs_c/c/cmake-build-debug/CMakeFiles/c.dir
+C:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/snake_vs_c/c/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/snake_vs_c/c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
