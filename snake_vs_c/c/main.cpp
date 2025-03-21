@@ -1,5 +1,3 @@
-// C++ program to print all primes smaller than or equal to
-// n using Sieve of Eratosthenes
 #include <bits/stdc++.h>
 #include <iostream>
 #include <vector>
@@ -9,7 +7,7 @@
 using namespace std;
 using namespace chrono;
 
-void SieveOfEratosthenes(int n)
+void sieve_of_eratosthenes(int n)
 {
     auto start = high_resolution_clock::now();
 
@@ -34,7 +32,7 @@ int main() {
     size_t size = 1'000'000'00;
 
     std::cout << "outside class: " << std::endl;
-    SieveOfEratosthenes(size);
+    sieve_of_eratosthenes(size);
 
     return 0;
 }
