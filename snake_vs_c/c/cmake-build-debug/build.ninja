@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/disaa/Documents/broncode/fundamentals_of_ai/stud
 
 build cmake_object_order_depends_target_c: phony || .
 
-build CMakeFiles/c.dir/main.cpp.obj: CXX_COMPILER__c_unscanned_Debug C$:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/snake_vs_c/c/main.cpp || cmake_object_order_depends_target_c
-  DEP_FILE = CMakeFiles\c.dir\main.cpp.obj.d
+build CMakeFiles/c.dir/gem_en_sd.cpp.obj: CXX_COMPILER__c_unscanned_Debug C$:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/snake_vs_c/c/gem_en_sd.cpp || cmake_object_order_depends_target_c
+  DEP_FILE = CMakeFiles\c.dir\gem_en_sd.cpp.obj.d
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\c.dir
   OBJECT_FILE_DIR = CMakeFiles\c.dir
@@ -63,7 +63,7 @@ build CMakeFiles/c.dir/main.cpp.obj: CXX_COMPILER__c_unscanned_Debug C$:/Users/d
 #############################################
 # Link the executable c.exe
 
-build c.exe: CXX_EXECUTABLE_LINKER__c_Debug CMakeFiles/c.dir/main.cpp.obj
+build c.exe: CXX_EXECUTABLE_LINKER__c_Debug CMakeFiles/c.dir/gem_en_sd.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\c.dir

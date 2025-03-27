@@ -172,7 +172,6 @@
 
 > De student stelt op basis van een teamplanning onder begeleiding een eenvoudige planning voor zichzelf op ten behoeve van de uitvoering van een gegeven, eenvoudige taak met een zekere doorlooptijd, rekening houdend met gegeven standaarden, door deze op te delen in kleinere (deel)taken, past deze planning indien nodig aan naar aanleiding van nieuwe (kleine) gebeurtenissen en licht eventuele aanpassingen toe.
 
-
 [comment]: Dit professionele vermogen toon je aan als onderdeel van het project. Voorbeelden van documentatie die je kunt aanleveren om dit vermogen aan te tonen:
 [comment]: - De planning van het team als geheel. Hier kijken we naar relevantie, haalbaarheid en werkverdeling onder de groepsleden;
 [comment]: - Jouw stories op het backlog. Hier kijken we naar: zijn alle velden ingevuld? Zijn er subtaken toegevoegd waar relevant? Is deze story geüpdatet in de loop van de Sprints?
@@ -214,7 +213,6 @@
 ### 10 - (Zelf)lerend vermogen
 
 > Student formuleert volgens instructie persoonlijke ambities en kwaliteiten en gebruikt andermans feedback om beargumenteerde keuzes te maken met het oog op de studieloopbaan. Student reflecteert op het eigen handelen en/of het handelen van individuele teamleden, haalt hiervoor feedback op bij peers en docenten, stelt eigen sterktes en verbeterpunten vast en vertaalt verbeterpunten naar concrete acties.
-
 
 [comment]: Dit professionele vermogen toon je aan als onderdeel van het project. Voorbeelden van documentatie die je kunt aanleveren om dit vermogen aan te tonen:
 [comment]: - Bijgehouden feedback in Canvas. Noteer de feedback die je voor opdrachten krijgt ook in het commentaar voor Canvas;

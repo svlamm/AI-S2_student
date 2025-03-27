@@ -31,7 +31,6 @@ void sieve_of_eratosthenes(int n)
 int main() {
     size_t size = 1'000'000'00;
 
-    std::cout << "outside class: " << std::endl;
     sieve_of_eratosthenes(size);
 
     return 0;

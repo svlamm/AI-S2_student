@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "c.exe"
+			"path" : "test.exe"
 		},
 		{
-			"path" : "c.pdb"
+			"path" : "test.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "c::@6890427a1f51a3e7e1df",
+	"id" : "test::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "c",
-	"nameOnDisk" : "c.exe",
+	"name" : "test",
+	"nameOnDisk" : "test.exe",
 	"paths" : 
 	{
 		"build" : ".",

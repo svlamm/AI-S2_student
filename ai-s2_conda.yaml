@@ -10,7 +10,7 @@ dependencies:
   - postgresql=12.*
   - pip:
     - matplotlib==3.*
-    - numpy==1.*
+    - numpy==2.*
     - psycopg2==2.*
     - pytest==7.*
     - requests==2.*
