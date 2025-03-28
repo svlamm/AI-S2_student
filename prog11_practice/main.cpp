@@ -7,6 +7,8 @@ struct Dog {
 };
 
 
+// fusion is een functie die een const vector<T>& ontvangt en een T teruggeeft. Bedenk zelf wat je een leuke vorm van fusion vindt
+
 
 
 template<typename T>
