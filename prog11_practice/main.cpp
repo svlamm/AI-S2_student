@@ -6,13 +6,15 @@ struct Dog {
 	int aantal_poten = 4;
 };
 
-
-// fusion is een functie die een const vector<T>& ontvangt en een T teruggeeft. Bedenk zelf wat je een leuke vorm van fusion vindt
+// fusion is een functie die een const vector<T>& ontvangt en een T teruggeeft. Bedenk zelf wat je een leuke vorm van fusion vindt.
+// Gebruik in ieder geval de binaire * operator. Kijk naar all_equal voor
 
 
 
 template<typename T>
 bool all_equal(const std::vector<T>& group_a, const std::vector<T>& group_b){
+	// Als de groepen niet dezelfde grootte zijn, kunnen ze ook niet gelijk aan elkaar zijn.
+	// En dan hebben we meteen een randgeval afgehandeld waardoor je index errors zou kunnen krijgen
 	if (group_a.size() != group_b.size()) {
 		return false;
 	}
@@ -45,8 +47,8 @@ int main() {
 	std::vector<Student> students2 = std::vector<Student>{s1,s2,s3};
 	std::vector<Student> students3 = std::vector<Student>{s2,s2,s3};
 
-	Student mega_nerd = fusion(students);
-	std::cout << mega_nerd;
+	Student mega_student = fusion(students);
+	std::cout << mega_student;
 
 	std::cout << "student equal to student2: " << (all_equal(students, students2)) << std::endl;
 	std::cout << "student equal to student3: " << (all_equal(students, students3)) << std::endl;
