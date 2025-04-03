@@ -19,14 +19,14 @@ void* operator new[](size_t size) {
 void operator delete[](void* ptr){
     if (ptr) {
         s_deletions_count++;
-        free(ptr);  // ✅ Calls standard delete
+        free(ptr);
     }
 }
 
 void operator delete(void* ptr){
     if (ptr) {
         s_deletions_count++;
-        free(ptr);  // ✅ Calls standard delete
+        free(ptr);
     }
 }
 
