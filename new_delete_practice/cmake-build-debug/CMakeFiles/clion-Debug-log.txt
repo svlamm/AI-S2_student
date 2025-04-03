@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\disaa\Documents\broncode\fundamentals_of_ai\student\code\AI-S2\new_delete_practice Select CMakeLists.txt
