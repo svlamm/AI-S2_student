@@ -4,8 +4,8 @@
 #include <cmath>
 #include <chrono>
 
-// Function to calculate the average and standard deviation of a C-style array
-void calculate_with_c_style_array(float* arr, size_t size) {
+// Function to calculate_u_sd the average and standard deviation of a C-style array
+void calculate_u_sd_with_c_style_array(float* arr, size_t size) {
     float sum = 0.0f;
     for (size_t i = 0; i < size; ++i) {
         sum += arr[i];
@@ -23,9 +23,9 @@ void calculate_with_c_style_array(float* arr, size_t size) {
     std::cout << "C-style Array: Average = " << mean << ", Standard Deviation = " << std_dev << std::endl;
 }
 
-// Function to calculate the average and standard deviation using std::array
+// Function to calculate_u_sd the average and standard deviation using std::array
 template <size_t N>
-void calculate_with_std_array(std::array<float, N>& arr) {
+void calculate_u_sd_with_std_array(std::array<float, N>& arr) {
     float sum = 0.0f;
     for (auto val : arr) {
         sum += val;
@@ -43,8 +43,8 @@ void calculate_with_std_array(std::array<float, N>& arr) {
     std::cout << "std::array: Average = " << mean << ", Standard Deviation = " << std_dev << std::endl;
 }
 
-// Function to calculate the average and standard deviation using std::vector
-void calculate_with_vector(const std::vector<float>& vec) {
+// Function to calculate_u_sd the average and standard deviation using std::vector
+void calculate_u_sd_with_vector(const std::vector<float>& vec) {
     float sum = 0.0f;
     for (auto val : vec) {
         sum += val;
@@ -93,17 +93,17 @@ int main() {
 
     // C-style array
     long long start_time = get_time_ns();
-    calculate_with_c_style_array(c_style_array, LARGE_SIZE);
+    calculate_u_sd_with_c_style_array(c_style_array, LARGE_SIZE);
     std::cout << "C-style array processing time: " << get_time_ns() - start_time << " ns\n";
 
     // std::array
     start_time = get_time_ns();
-    calculate_with_std_array(std_array);
+    calculate_u_sd_with_std_array(std_array);
     std::cout << "std::array processing time: " << get_time_ns() - start_time << " ns\n";
 
     // std::vector
     start_time = get_time_ns();
-    calculate_with_vector(std_vector);
+    calculate_u_sd_with_vector(std_vector);
     std::cout << "std::vector processing time: " << get_time_ns() - start_time << " ns\n";
 
     return 0;

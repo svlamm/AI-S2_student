@@ -1,3 +1,0 @@
-C:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/containers/cmake-build-debug/CMakeFiles/containers.dir
-C:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/containers/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/disaa/Documents/broncode/fundamentals_of_ai/student/code/AI-S2/containers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
