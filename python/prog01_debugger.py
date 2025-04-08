@@ -5,7 +5,7 @@ def call_2(x):
     call_3(x)
 
 def call_3(x):
-    print(x[0])
+    # print(x[0])
     call_4(x)
 
 def call_4(x):

@@ -17,6 +17,7 @@ class Rational:
         """
         self.numerator = numerator
         self.denominator = denominator
+        self._reduce()
 
     def __eq__(self, other):
         """ Compare two rational values.
@@ -25,7 +26,7 @@ class Rational:
         if and only if the numerator and denominator of both
         operands are equal.
         """
-        return self.numerator == other.numerator or self.denominator == other.denominator
+        return self.numerator == other.numerator and self.denominator == other.denominator
 
     def __mul__(self, other):
         """ Multiply a rational.
@@ -36,7 +37,7 @@ class Rational:
         """
         if isinstance(other, int):
             numerator = self.numerator * other
-            denominator = self.denominator * other
+            denominator = self.denominator 
             return Rational(numerator, denominator)
 
         elif isinstance(other, Rational):
@@ -55,11 +56,13 @@ class Rational:
         """
         if isinstance(other, int):
             self.numerator *= other
+            self._reduce()
             return self
 
         elif isinstance(other, Rational):
             self.numerator *= other.numerator
             self.denominator *= other.denominator
+            self._reduce()
             return self
         else:
             raise TypeError
@@ -79,7 +82,7 @@ class Rational:
         This method prints a Rational in the format numerator/denominator
         where both values are printed as decimal values.
         """
-        return f"{self.numerator}|{self.denominator}"
+        return f"{int(self.numerator)}/{int(self.denominator)}"
 
     def _reduce(self):
         a = self.numerator

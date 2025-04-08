@@ -39,18 +39,18 @@ BLACK = "\x1b[0m"
 # elif <conditie_2>:
 #     <code_blok_2>
 
-# TODO: <geef hier je antwoord>
+# TODO: Bij Stuk code 1 kunnen bijde if statements geactiveerd worden, bij stuk code 2 kan aleen één van de if statements geactiveerd worden
 
 
 # Opgave 2. Wat doet break in een for-loop? En continue?
 
-# TODO: <geef hier je antwoord>
+# TODO: Break stopt de for-loop helemaal, continue stopt een iteratie
 
 
 # Opgave 3. De range() functie kan drie argumenten meekrijgen. 
 # Geef een voorbeeld van een range() functie met drie argumenten en leg uit wat de argumenten betekenen.
 
-# TODO: <geef hier je antwoord>
+# TODO: Range(1,5,2) Het eerste getal is het start getal, het tweede getal is het eind getal en het derde getal is de increment
 
 
 # Opgave 4. Wat is het verschil tussen onderstaande functies
@@ -61,12 +61,12 @@ BLACK = "\x1b[0m"
 # def functie_2():
 #     return <expressie_1>
 
-# TODO: <geef hier je antwoord>
+# TODO: Functie 1 print een expressie naar de console, functie 2 geeft een expressie terug als een waarde
 
 
 # Opgave 5. Wat is het belangrijkste verschil tussen een tuple en een list? Geef een voorbeeld van een tuple.
 
-# TODO: <geef hier je antwoord>
+# TODO: bij een lijst is er een volgorde, bij een tuple niet. VoorbeeldTuble = {"appel","banaan","citroen"}
 
 
 # Opgave 6. Implementeer de functie trek_twee_kaarten() zoals beschreven in de desbetreffende docstring.
@@ -85,6 +85,18 @@ def trek_twee_kaarten():
     Returns:
         int: De som van de twee kaarten.
     """
+    cards = [2,3,4,5,6,7,8,9,10,"J","Q","K","A"]
+    handValue = 0
+    for i in range(0,2):
+        card = random.choice(cards)
+        if  card == "A":
+                handValue+=11
+        else:
+            if card == "J" or card == "Q" or card == "K":
+                handValue+=10
+            else: 
+                handValue+=card
+    return handValue
     pass
 
 
@@ -111,6 +123,12 @@ def beste_speler(scores):
     Returns:
         string: De naam van de speler die de hoogste score heeft.
     """
+    highest = None
+    print(scores)
+    for i in scores:
+        print(scores[i])
+        
+        # ik weet niet hoe je dat getal uit de dictionairy haalt
     pass
 
 
@@ -139,6 +157,9 @@ def vraag_getal_onder_n(n):
     Returns:
         int: Het ingevoerde getal tussen 1 en n.
     """
+    number = int(input("geef getal: "))
+    if number < n:
+        return number
     pass
 
 

@@ -3,10 +3,10 @@
 
 [comment]: # (Instructie: vul onderstaande velden in. 'Bijeenkomst' is peilmoment 1, peilmoment 2 of beslismoment.)
 
-* **Studentnummer**:
-* **Naam**:
-* **Bijeenkomst**:
-* **Datum**:
+* **Studentnummer**: 1857700
+* **Naam**: Sjoerd van Lammeren
+* **Bijeenkomst**: Peilmoment 1
+* **Datum**: 20-03-2025
 
 
 ## Inleiding
@@ -14,6 +14,12 @@
 [comment]: # (Instructie: beschrijf in circa 200 woorden je ontwikkeling in de afgelopen periode. Doe dit in drie alinea's, waarin je achtereenvolgens antwoord geeft op de volgende vragen: 1. wat ging er goed in afgelopen periode; 2. wat kon er beter in afgelopen periode; 3. wat ga je komende periode vasthouden en/of verbeteren. Wees zo concreet mogelijk en geef voorbeelden.)
 
 [comment]: # (Inleiding peilmoment 1)
+> De introductie and het AI simester ging goed, ik begreep snel wat voor opdrachten er zou komen en wat ik daarbij zou moeten doen, ik kon ook meteen met een paar mensen het al goed mee vinden. 
+
+> Ik heb wel veel last gehad van motivatie problemen, ik weet niet exact waarom ik hierbij zo veel problemen heb maar ik heb er duidelijk wel last van. Hierdoor vond ik het lastig om opdrachten te maken en op tijd in te leveren.
+
+> Als ik thuis werk dan werk ik vaak in mijn kamer, mijn moeder had laatst gezegd dat ik misschien beter ergens anders kan werken dus ik ga deze periode in de woonkamer of in onze "studeerkamer" werken. Hopelijk gaat dat helpen met mijn motivatie.
+
 
 ---
 
@@ -37,16 +43,9 @@
 
 [comment]: # (Portfolio-items peilmoment 1. Het eerste voorbeeld is een voorgedefinieerd portfolio-item dat op niveau is voltooid. Het tweede voorbeeld is een voorgedefinieerd portfolio-item dat onder niveau is. Het derde voorbeeld is een invulling van een wildcard. NB. Verwijder deze voorbeelden bij inlevering van het verantwoordingsdocument.)
 
-* [L&W-III: Boommethode](https://canvas.hu.nl/courses/44855/assignments/327461/submissions/367387)
 
-* [HW-I: Turing complete t/m level *Little Box*](https://canvas.hu.nl/courses/44855/assignments/327461/submissions/367387)
-    * Dit item is onder niveau, maar het draagt desondanks bij aan de leeruitkomst, want ik heb na de deadline in een individueel gesprek met docent Peter aangetoond dat ik de logica van de oplossing kan uitleggen.
-
-* [Wildcard: Analyseren van Algoritmes](https://canvas.hu.nl/courses/44855/assignments/327461/submissions/367387)
-    * In deze leeruitkomst geef ik een analyse van de looptijd van de heuristiek voor galgje uit het groepsproject.
-    * Coderegels 24 t/m 42 in [module.py](https://github.com/AI-S2-Fundamentals-2024/superstudentje/megaopdracht/module.py) is individueel werk van mij binnen het groepsproject. De uitwerking van de groepsopdracht staat in deze  [repo](https://github.com/AI-S2-Fundamentals-2024/superstudentje/megaopdracht).
-    * Ik heb feedback van de docent gekregen en dit verwerkt in de opdracht 'Boommethode' op [Canvas](https://canvas.hu.nl/courses/44855/assignments/328081/submissions/367387).
-    * Ik heb feedback van een medestudent gekregen en dit verwerkt in een [pull request](https://github.com/AI-S2-Fundamentals-2024/superstudentje/megaopdracht/vettepullrequest).
+* [Prog-III: Mastering Mastermind](https://canvas.hu.nl/courses/44855/assignments/328065/submissions/275576)
+    * Ik weet dat deze item nog niet goed is afgerond maar in deze opdracht Heb ik gewerkt met de pseudocode van Barteld Kooi in [dit document](https://research.rug.nl/en/publications/yet-another-mastermind-strategy). Naast dat heb ik natuurlijk de algoritmes geschreven. 
 
 ---
 
@@ -66,6 +65,8 @@
 
 [comment]: # (Portfolio-items peilmoment 1)
 
+* [Prog-III: Mastering Mastermind](https://canvas.hu.nl/courses/44855/assignments/328065/submissions/275576)
+    * Ik weet dat deze item nog niet goed is afgerond maar in deze opdracht heb ik gewerkt met Procedureel Programmeren en heb gebruikt gemaakt van comtaar bij functies. Naast dat heb ik door de test 2 in de presentatie bij [FB3](https://canvas.hu.nl/courses/44855/pages/fb3-mastermind) gezien dat mijn implementatie fout was en uiteindelijk opgemerkt dat het probleem een 1 was in plaats van een i.
 ---
 
 [comment]: # (Portfolio-items peilmoment 2)
@@ -84,6 +85,9 @@
 
 [comment]: # (Portfolio-items peilmoment 1)
 
+* [HW-II: Turing Complete Mondeling Assessment](https://canvas.hu.nl/courses/44855/assignments/332867/submissions/275576)
+    * Het Mondeling Assessment gedeelte van deze opdracht is nog niet voltooid doordat die nog in de toekomst nog moet komen maar ik heb wel al een screenshot ingeleverd van bewijs dat ik at tot en met de "Turing Complete" level ben gekomen.
+
 ---
 
 [comment]: # (Portfolio-items peilmoment 2)
@@ -101,6 +105,8 @@
 > Kennis & vaardigheden: besturingssystemen, ontwikkelomgevingen (IDE), debugger, remote werken, command line interface (CLI), Git, compileren
 
 [comment]: # (Portfolio-items peilmoment 1)
+* [PROG-II Debugger](https://canvas.hu.nl/courses/44855/assignments/328060/submissions/275576#rubric)
+    * In deze Item had ik aan David laten zien dat ik de Debugger kon gebruiken. Je kan dit zien in de rubric.
 
 ---
 
@@ -214,6 +220,7 @@
 > Attitudes: nauwkeurig, doorzettend, verbeteringsgericht, communicatief, concreet analytisch
 
 [comment]: # (Beschrijving attitudes peilmoment 1)
+>Zelf denk ik dat bij deze Attitudes geen specifieke een grote significante ontwikkeling heeft doorbracht maar wel dat mijn nauwkeurigheid omhoog is gegaan en dat ik meer verbeteringsgericht ben geworden. In Turing Complete ben ik een aantal keer terug gegaan naar oudere levels om ge efficienter te maken met minder onderdelen of compacter te maken.
 
 ---
 
