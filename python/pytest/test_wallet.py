@@ -30,7 +30,6 @@ def test_default_initial_amount(empty_wallet):
 
 
 def test_wallet_insufficient_amount(empty_wallet):
-    empty_wallet = Wallet()
     with pytest.raises(InsufficientAmount):
         empty_wallet.spend_cash(100)
 
