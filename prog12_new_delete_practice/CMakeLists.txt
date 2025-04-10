@@ -4,5 +4,5 @@ project(new_delete_practice)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(new_delete_practice main.cpp
+add_executable(new_delete_practice one.cpp
 )
