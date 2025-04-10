@@ -6,6 +6,10 @@
 struct Dog {
 	int leeftijd = 1;
 	int aantal_poten = 4;
+	Dog(int lt,int ap){
+		leeftijd =  lt;
+		aantal_poten = ap;
+	}
 };
 
 bool operator==(const Dog& lhs, const Dog &rhs)  {
@@ -13,14 +17,19 @@ bool operator==(const Dog& lhs, const Dog &rhs)  {
 }
 
 Dog operator*(const Dog& lhs, const Dog& rhs)  {
+	return Dog(lhs.leeftijd*rhs.leeftijd,lhs.aantal_poten*rhs.aantal_poten);
+}
+Dog fusion(std::vector<Dog> dogs){
+	Dog ultidog = Dog(1,1);
+	for (int i=1;1<dogs.size();i++){
+		ultidog * dogs[i];
+	}
 }
 
 std::ostream& operator<<(std::ostream& os, const Dog& rhs) {
 	os << "This dog is " << rhs.leeftijd << " years old, and has " << rhs.aantal_poten << " legs." << std::endl;
 	return os;
 }
-
-
 
 template<typename T>
 bool all_equal(const std::vector<T>& group_a, const std::vector<T>& group_b){
