@@ -8,13 +8,13 @@ int doeNogMeer(int& a, int& b){
     b -= 3;
     int* c = new int(4);
     cout << "a: " << a << "\nb: " << b << "\n" << "c: " << c << "\n";
-
     return a*b**c;
 }
 
 void doeIets(int k, int &j){
     k *= 6;
-    j *= 6; 
+    j *= 6;
+    int* c = new int(4);
     cout << &j << "\n";
     cout << "k: " << k << "\nj: " << j << "\n";
 
